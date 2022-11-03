@@ -144,12 +144,12 @@ const app = {
             ) {
                 if (e.enemiesPos.x + e.enemiesSize.w - 10 > this.player.playerPos.x &&
                     this.player.playerPos.y > e.enemiesPos.y) {
-                    this.player.playerPos.y = this.canvasSize.h + this.player.playerSize.h
+                    this.player.playerPos.y > this.canvasSize.h
                     this.isGameOver()
                     console.log('izquierda enemigo')
                 } else if (e.enemiesPos.x + e.enemiesSize.w > this.player.playerPos.x &&
                     this.player.playerPos.y > e.enemiesPos.y) {
-                    this.player.playerPos.y = this.canvasSize.h + this.player.playerSize.h
+                    this.player.playerPos.y > this.canvasSize.h
                     this.isGameOver()
                     console.log('derecha enemigo')
                 } else {
