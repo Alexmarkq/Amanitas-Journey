@@ -61,10 +61,8 @@ div img {
     font-size: 20px;
     font-family: 'Courier';
     position: absolute;
-    top: 270px;
-    left: 0;
-    right: 0;
-    margin-inline: auto;
+    top: 350px;
+    left: 200px;
     width: max-content;
 }
 

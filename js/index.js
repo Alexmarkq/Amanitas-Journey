@@ -7,3 +7,6 @@ startButton.onclick = () => {
     game.classList.remove('hidden')
     app.init()
 }
+
+
+
